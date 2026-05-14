@@ -8,5 +8,11 @@
 # O FIAT TORO com 15.0% de desconto custará R$ 170000.0
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+produto = input("Digite o produto: ")
+preco = float(input("Digite o preço do produto: "))
+porcentagem = float(input("Digite uma porcentagem para desconto: "))
+desconto = preco*(porcentagem/100)
+desconto_total = (preco-desconto)
 
-
+print(f"Qual a porcentagem de desconto? {porcentagem}")
+print(f"O {produto} com {porcentagem}% de desconto custará R$ {desconto_total}")

@@ -16,4 +16,11 @@
 # Aluno aprovado? False
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segundo nota: "))
+media = (nota1+nota2)/2
 
+if media >=8:
+    print("Aluno aprovado")
+else:
+    print("Aluno Reprovado")

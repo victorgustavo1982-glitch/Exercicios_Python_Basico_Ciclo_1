@@ -14,4 +14,9 @@
 # Senha correta
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+senha = int(input("Digite a senha: "))
 
+if senha == 3122008:
+    print("Senha Correta")
+else:
+    print('Senha Incorreta')

@@ -20,4 +20,12 @@
 # | ______________________________ |
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+aluno = input("Digite o nome do aluno: ")
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segundo nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+media = (nota1+nota2+nota3)/3
 
+print(f"Aluno: {aluno}")
+print(f"Média: {media}")
+print("Aluno aprovado")

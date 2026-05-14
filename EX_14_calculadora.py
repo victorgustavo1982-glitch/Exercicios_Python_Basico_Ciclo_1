@@ -52,3 +52,31 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+print("Escolha uma operação")
+print("1 - Adição (+)")
+print("2 - Subtração (-)")
+print("3 - Multiplicação (*)")
+print("4 - Divisão (/)")
+opcao = int(input("Digite a opção: "))
+
+if opcao in (1, 2, 3, 4):
+    num1 = int(input("Digite um número: "))
+    num2 = int(input("Digite outro número: "))
+
+    if opcao == 1:
+        resultado = num1+num2
+        print(f'O resultado da Adição é: {resultado}')
+    elif opcao == 2:
+        resultado2 = num1-num2
+        print(f'O resultado da Subtração é: {resultado2}')
+    elif opcao == 3:
+        resultado3 = num1*num2
+        print(f'O resultado da Multiplicação é: {resultado3}')
+    elif opcao == 4:
+        if num2 != 0:
+            resultado = num1 / num2
+            print(f"O resultado da divisão é: {resultado}")
+        else:
+            print("Erro: Não é possível dividir por zero!")
+else:
+    print("Opção inválida!")

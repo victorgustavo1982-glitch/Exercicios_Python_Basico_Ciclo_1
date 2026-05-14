@@ -11,4 +11,10 @@
 # O produto que custa R$300.0 terá R$30.0 de desconto.
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+preco = float(input("Digite o preço do produto: "))
+porcentagem = float(input("Digite uma porcentagem para desconto: "))
+desconto = preco*(porcentagem/100)
 
+print(f"Qual o preço do produto? {preco}")
+print(f"Qual a porcentagem de desconto? {porcentagem}")
+print(f"O produto custa R${preco} terá R${desconto} de desconto.")

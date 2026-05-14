@@ -9,5 +9,8 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
-
-
+cotacao = float(input("Digite a cotação do dollar: "))
+real = float(input("Digite o valor em reais: "))
+convercao = (real*cotacao)
+ 
+print(f"O valor em reais é: {convercao}")
